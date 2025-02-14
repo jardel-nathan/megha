@@ -26,6 +26,21 @@
         <link rel="stylesheet" href="assets/css/main.css">
     </head>
 
+    <style>
+
+#letras-megha{
+    display: flex;
+}
+
+        /* set display block in letras-megha for  mobile */
+        @media (max-width: 768px) {
+            #letras-megha {
+                display: block;
+            }
+        }
+
+    </style>
+
     <body>
         <!-- header-area-start -->
         <header class="header header-3 sticky-active">
@@ -152,8 +167,8 @@
                         Descubra mais sobre a MEGHA
                     </h2>
                 </div>
-                <div class="gy-lg-0 gy-4"
-                    style="display: flex; justify-content: center; gap: 5px;">
+                <div class="gy-lg-0 gy-4" id="letras-megha"
+                    style="justify-content: center; gap: 5px;">
                     <div class>
                         <div class="promo-item-2 fade-in-bottom"
                             data-wow-delay="300ms">
